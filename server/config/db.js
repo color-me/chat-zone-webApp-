@@ -6,7 +6,7 @@ if (env === 'dev') {
     MYSQL_CONF = {
         host: 'localhost',
         user: 'root',
-        password: '',
+        password: '724128ba',
         port: '3306',
         database: 'admin',
         charset:'utf8mb4'   //字符集一定要写，否则表情包存储不了
@@ -16,7 +16,7 @@ if (env === 'production') {
     MYSQL_CONF = {
         host: 'localhost',
         user: 'root',
-        password: '',
+        password: '724128ba',
         port: '3306',
         database: 'admin',
         charset:'utf8mb4'   //字符集一定要写，否则表情包存储不了

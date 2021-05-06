@@ -22,7 +22,7 @@ function Phone(props) {
     return `${hour.padStart(2, 0)}:${minute.padStart(2, 0)}`
   }
   return (
-    <div id="phone" style={props.style}>
+    <div id="thephone" style={props.style}>
       <div className="speaker"></div>
       <div className="screen">
         <div className="status-bar">
